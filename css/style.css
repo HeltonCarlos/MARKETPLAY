@@ -14,7 +14,7 @@ nav ul li a:hover{border-bottom: 2px solid rgb(255, 217, 0);padding-bottom: 10px
     .menu-desk{display: none;}
     .menu-mob{display: none;}
     .menu-mob{width: 100vw;;height: 100vh ;background-color: #222;position:absolute;top:0;left: 0;z-index: 1;text-align: center;}
-    .menu-mob ul{flex-direction: column;position: relative;left: 120px;top:80px}
+    .menu-mob ul{flex-direction: column;position: relative;left: 100px;top:80px}
     .menu-mob ul li{margin: 20px 0px 50px;}
     .menu-mob ul li a:hover{border:none;color: rgb(255, 217, 0);}
     .exit a{text-decoration: none;font-size: 30px;color:#fff;position: relative;top: 20px;left: 20px;}

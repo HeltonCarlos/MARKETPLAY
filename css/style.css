@@ -1,22 +1,28 @@
 *{padding: 0;margin:0;box-sizing: border-box;font-family: 'Roboto', sans-serif;}
 header{width:100%;background-image: url('/IMAGEM/FUNDO.png');background-size: cover;height: 100vh;align-items: center;}
-.container{max-width: 80%;display: flex;justify-content: space-between;margin: 0 auto;padding-top: 70px}
-.logo{display: flex;padding-left: 20px;position: relative;bottom: 14px;}
+.container-header{max-width: 80%;display: flex;justify-content: space-between;margin: 0 auto;padding-top: 70px}
+.logo{display: flex;padding-left: 20px;position: relative;bottom: 11px;}
 nav ul{display: flex;}
 nav ul li{list-style: none;}
 nav ul li a{text-decoration: none; color:#fff;font-size: 18px;margin-left: 40px;font-weight: 700;}
 nav ul li a:hover{border-bottom: 2px solid rgb(255, 217, 0);padding-bottom: 10px;}
 .cadastro a{text-decoration: none; color:#fff;font-size: 18px;margin-left: 40px;font-weight: 700;border: 3px solid #fff;padding: 8px 20px;border-radius: 20px;}
 .cadastro a:hover{color:#0000F3;background-color:rgb(255, 217, 0);border: 3px solid rgb(255, 217, 0);}
-.listas{display: none;}
-
+.menu-mob{display: none;}
 @media(max-width:900px){
     .mobile-deskt{display:flex;background-image: url('/IMAGEM/menu.png');width: 27px;height: 18px;cursor: pointer;}
-    nav {display: none;}
+    .menu-desk{display: none;}
+    .menu-mob{display: none;}
+    .menu-mob{width: 100vw;;height: 100vh ;background-color: #222;position:absolute;top:0;left: 0;z-index: 1;text-align: center;}
+    .menu-mob ul{flex-direction: column;position: relative;left: 120px;top:80px}
+    .menu-mob ul li{margin: 20px 0px 50px;}
+    .menu-mob ul li a:hover{border:none;color: rgb(255, 217, 0);}
+    .exit a{text-decoration: none;font-size: 30px;color:#fff;position: relative;top: 20px;left: 20px;}
     }
 
 
 /*hero*/
+.container{max-width: 80%;display: flex;justify-content: space-between;margin: 0 auto;padding-top: 70px}
 .hero{width: 350px;color:#fff;margin-left: 180px;}
 .hero h1{font-size: 80px;padding-top: 40px;}
 .hero h2{font-size: 70px;text-transform: uppercase;font-weight: 400;}

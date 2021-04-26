@@ -11,5 +11,6 @@ document.querySelector('#btn3').addEventListener('click',(e)=>{
 });
 
 document.querySelector('.mobile-deskt').addEventListener('click',(e)=>{
-
+    var mb= document.querySelector(".menu-mob")
+    mb.style.display="flex";
 })

@@ -8,4 +8,8 @@ document.querySelector('#btn3').addEventListener('click',(e)=>{
     }else{
         alert('Obrigado: '+nome+', Entraremos em contato!')
     }
+});
+
+document.querySelector('.mobile-deskt').addEventListener('click',(e)=>{
+
 })
